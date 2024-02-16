@@ -1,0 +1,10 @@
+<svg width="1862" height="100" viewBox="0 0 1862 100" fill="none" xmlns="http://www.w3.org/2000/svg" >
+<g filter="url(#shadow)">
+    <path d="M1862 0V96.8912L1441.17 87.0466L1238.46 83.4197H1044.99H856.446L653.733 87.0466L359.831 93.7824L0 100V93.7824V0H1862Z" fill="white"/>
+</g>
+<defs>
+    <filter id="shadow">
+      <feDropShadow dx="0.2" dy="0.45" stdDeviation="0.6" />
+    </filter>
+</defs>
+</svg>
