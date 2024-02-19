@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cca3e7e4f3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div>
+                <img src="images/dog shop.png" alt="">
+              </div> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+               
+                <li><a href="contact.html">CONTACT</a></li>
+                <li>
+                    <a href=""><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </li>
+                <li><a href=""><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main1">
+
+        <div><br><br><br>
+            <h1>Who are we?</h1>
+            <p style="text-align: justify;">Pets, whether furry, feathered, or scaly, hold a special place in our
+                hearts. They are not just animals; they are beloved companions, providing unconditional love, joy, and
+                comfort. </p>
+            <br>
+            <a class="button"> learn more <i class=" fa-solid fa-arrow-right"></i></a>
+
+        </div>
+        <div><img src="images/istockphoto-1277453154-612x612.jpg" alt=""></div>
+    </div>
+
+    <div class="headings" >
+        <h2>Our Services</h2>
+        <h4>Pets, whether furry, feathered, or scaly, hold a special place in our hearts.</p>
+
+    </div>
+    <div class="main2"style="background-color: #fff;">
+        <img src="images/about_us_3.jpg" alt="">
+        <img src="images/about_us_4.jpeg" alt="">
+        <img src="images/about_us_5.jpg" alt="">
+        <img src="images/poster2.webp" alt="">
+        <img src="images/about_us_3.jpg" alt="">
+    </div>
+    <div class="main1">
+        <div><img src="images/Pets1_1652956267504_1652956282877.webp" alt="" style="width: 600px;"></div>
+        <div>
+            <h1>Who are we?</h1>
+            <p style="text-align: justify;">Pets, whether furry, feathered, or scaly, hold a special place in our
+                hearts. They are not just animals; they are beloved companions, providing unconditional love, joy, and
+                comfort. </p>
+            <br>
+            <a class="button"> learn more <i class=" fa-solid fa-arrow-right"></i></a>
+
+        </div>
+
+    </div>
+    <div class="headings"style="background-color: #fff;">
+        <h2>Simple & easy pricing</h2>
+        <h4>Pets, whether furry, feathered, or scaly, hold a special place in our hearts.</p>
+<button onclick="change()" class="pricebtn">10days </button>
+<button onclick="change1()" class="pricebtn">20days </button>
+<button onclick="change2()" class="pricebtn">30days </button>
+
+      </div>
+    <div class="main2">
+        <div class="psq">
+            <img src="images/voucher  1.webp" alt="" style="height: 80px;">
+            <p>Single day pass</p>
+            <h1 id="sp">800/-</h1>
+            <hr>
+            <p>Includes</p>
+            <h3><i class="fa-solid fa-circle-check"></i> Day care</h4>
+                <p>705/- Day</p>
+                <h3><i class="fa-solid fa-circle-check"></i> Day care</h4>
+                    <p id="ms">100/- Day</p>
+        </div>
+        <div class="psq"> <img src="images/voucher  1.webp" alt="" style="height: 80px;">
+            <p>Single day pass</p>
+            <h1 id="mp">₹800/- </h1>
+            <hr>
+            <p>Includes</p>
+            <h3><i class="fa-solid fa-circle-check"></i> Day care</h4>
+                <p>700/- Day</p>
+                <h3><i class="fa-solid fa-circle-check"></i> Day care</h4>
+                    <p id="mm">200/- Day</p>
+        </div>
+        <div class="psq">
+            <img src="images/voucher  1.webp" alt="" style="height: 80px;">
+            <p>Single day pass</p>
+            <h1 id="lp">₹1500/- </h1>
+            <hr>
+            <p>Includes</p>
+            <h3><i class="fa-solid fa-circle-check"></i> Day care</h4>
+                <p>700/- Day</p>
+                <h3><i class="fa-solid fa-circle-check"></i> Day care</h4>
+                    <p id="ml">350/- Day</p>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="main1">
+        <div>
+            <h1>Who are we?</h1>
+            <p style="text-align: justify;">Pets, whether furry, feathered, or scaly, hold a special place in our
+                hearts. They are not just animals; they are beloved companions, providing unconditional love, joy, and
+                comfort. </p>
+            <br>
+            <a class="button"> learn more <i class=" fa-solid fa-arrow-right"></i></a>
+
+        </div>
+        <div><img src="images/Pets1_1652956267504_1652956282877.webp" alt="" style="width: 600px;"></div>
+
+
+    </div>
+<script>
+function change(){
+ 
+  var price=  document.getElementById("sp");
+  var price2=  document.getElementById("mp");
+  var price3=  document.getElementById("lp");
+  var mp=  document.getElementById("ms");
+ 
+   price.textContent="850/-";
+   price2.textContent="950/-";
+   price3.textContent="1050/-";
+}
+function change1(){
+ 
+ var price=  document.getElementById("sp");
+ var price2=  document.getElementById("mp");
+ var price3=  document.getElementById("lp");
+  price.textContent="800/-";
+  price2.textContent="900/-";
+  price3.textContent="1000/-";
+}
+function change2(){
+ 
+ var price=  document.getElementById("sp");
+ var price2=  document.getElementById("mp");
+ var price3=  document.getElementById("lp");
+  price.textContent="750/-";
+  price2.textContent="850/-";
+  price3.textContent="950/-";
+}
+
+</script>
+</body>
+
+</html>
