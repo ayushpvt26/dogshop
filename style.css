@@ -10,7 +10,6 @@
     background-size: cover;
     background-position: center center;
     border: 6px solid rgb(0, 0, 0);
-
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     margin: 30px;
@@ -33,9 +32,8 @@
     background-color: #fff;
     height: 100px;
     box-shadow: 0 4px 8px rgba(203, 165, 111, 0.212);
-
-       border-radius: 50px;
-  padding-left: 0px;
+    border-radius: 50px;
+    padding-left: 0px;
 }
 .navbar div{
     padding: 3px 20px;
